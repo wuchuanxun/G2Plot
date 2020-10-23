@@ -1,3 +1,4 @@
+import { last } from '@antv/util';
 import { Line } from '../../../../src';
 import { partySupport } from '../../../data/party-support';
 import { createDiv } from '../../../utils/dom';
@@ -48,6 +49,18 @@ describe('line', () => {
     expect(point.attributeOption.size.values).toEqual([2]);
     // @ts-ignore
     expect(point.attributeOption.shape.values).toEqual(['circle']);
+  });
+
+  it('point: default shape', () => {
+    line.update({
+      ...line.options,
+      point: {},
+    });
+    const point = line.chart.geometries[1];
+    // @ts-ignore
+    expect(point.elements[0].shapeType).toEqual('circle');
+    // @ts-ignore
+    expect(last(point.elements).shapeType).toEqual('circle');
   });
 
   it('point shape', () => {

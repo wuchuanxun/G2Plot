@@ -1,3 +1,4 @@
+import { last } from '@antv/util';
 import { Radar } from '../../../../src';
 import { SINGLE_DATA, SERIES_DATA } from '../../../data/radar';
 import { createDiv } from '../../../utils/dom';
@@ -17,6 +18,7 @@ describe('radar with point', () => {
     radar.render();
     expect(radar.chart).toBeDefined();
     expect(radar.chart.geometries.length).toBe(2);
+    expect(last(radar.chart.geometries[1].elements).getModel().shape).toBe('hollow-circle');
   });
 
   it('point shape & size', () => {
@@ -87,6 +89,7 @@ describe('radar with point', () => {
     let pointGeometry = radar2.chart.geometries[1];
     expect(pointGeometry.elements[0].getModel().color).toBe('red');
     expect(pointGeometry.elements[SERIES_DATA.length / 2].getModel().color).toBe('orange');
+    expect(last(radar2.chart.geometries[1].elements).getModel().shape).toBe('hollow-circle');
 
     radar2.update({
       ...radar2.options,
