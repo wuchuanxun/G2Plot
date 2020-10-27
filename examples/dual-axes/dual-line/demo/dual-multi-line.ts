@@ -51,11 +51,11 @@ const dualAxes = new DualAxes('container', {
       seriesField: 'name',
       color: ({ name }) => {
         if (name === 'a') {
-          return '#CDDDFD';
+          return '#5D7092';
         } else if (name === 'b') {
-          return '#CDF3E4';
+          return '#F6BD16';
         }
-        return '#CED4DE';
+        return '#6F5EF9';
       },
     },
   ],

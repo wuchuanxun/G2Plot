@@ -39,23 +39,17 @@ const dualAxes = new DualAxes('container', {
       isStack: true,
       seriesField: 'type',
       columnWidthRatio: 0.4,
-      color: ['#5B8FF9', '#5D7092'],
+      color: ['#5B8FF9', '#5AD8A6'],
       label: {},
     },
     {
       geometry: 'line',
-      color: '#5AD8A6',
+      color: '#F6BD16',
     },
   ],
   legend: {
     marker: {
       symbol: 'circle',
-      style: {
-        lineWidth: 2,
-        r: 6,
-        stroke: '#5AD8A6',
-        fill: '#fff',
-      },
     },
     layout: 'vertical',
     position: 'right',

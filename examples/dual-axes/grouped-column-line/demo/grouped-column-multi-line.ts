@@ -46,7 +46,7 @@ const dualAxes = new DualAxes('container', {
     {
       geometry: 'line',
       seriesField: 'name',
-      color: ['#CDDDFD', '#CDF3E4', '#CED4DE'],
+      color: ['#5D7092', '#F6BD16', '#6F5EF9'],
       lineStyle: ({ name }) => {
         if (name === 'a') {
           return {

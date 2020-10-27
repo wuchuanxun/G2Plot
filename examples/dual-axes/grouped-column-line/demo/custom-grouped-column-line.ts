@@ -32,11 +32,11 @@ const dualAxes = new DualAxes('container', {
       seriesField: 'type',
       columnWidthRatio: 0.4,
       label: {},
-      color: ['#5B8FF9', '#5D7092'],
+      color: ['#5B8FF9', '#5AD8A6'],
     },
     {
       geometry: 'line',
-      color: '#5AD8A6',
+      color: '#F6BD16',
     },
   ],
   legend: {

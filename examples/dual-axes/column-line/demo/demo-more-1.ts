@@ -54,11 +54,11 @@ const dualAxes = new DualAxes('container', {
   geometryOptions: [
     {
       geometry: 'column',
-      color: '#586bce',
+      color: '#5B8FF9',
     },
     {
       geometry: 'line',
-      color: '#29cae4',
+      color: '#5AD8A6',
     },
   ],
   xAxis: {

@@ -39,7 +39,7 @@ const dualAxes = new DualAxes('container', {
     {
       geometry: 'line',
       seriesField: 'name',
-      color: ['#CDDDFD', '#CDF3E4', '#CED4DE'],
+      color: ['#5AD8A6', '#5D7092', '#F6BD16'],
     },
   ],
 });
