@@ -5,7 +5,7 @@ order: 0
 
 Description about this component.
 
-## 配置属性
+ 
 
 ### 图表容器
 

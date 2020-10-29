@@ -28,6 +28,12 @@ export class Box extends Plot<BoxOptions> {
         showCrosshairs: true,
         shared: true,
       },
+
+      xAxis: {
+        label: {
+          autoRotate: false,
+        },
+      },
     });
   }
 

@@ -3,7 +3,7 @@ title: Bullet
 order: 0
 ---
 
-## 配置属性
+ 
 
 ### 图表容器
 

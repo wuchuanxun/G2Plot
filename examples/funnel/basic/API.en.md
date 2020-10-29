@@ -1,5 +1,3 @@
-## 配置属性
-
 ### 图表容器
 
 `markdown:docs/common/chart-options.en.md`

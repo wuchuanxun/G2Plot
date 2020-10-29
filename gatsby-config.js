@@ -20,6 +20,8 @@ module.exports = {
       'latest v2': 'https://g2plot.antv.vision',
       '1.x': 'https://g2plot-v1.antv.vision',
     },
+    showChartResize: true,
+    showAPIDoc: true,
     navs: [
       {
         slug: 'docs/manual',
