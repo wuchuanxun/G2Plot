@@ -140,7 +140,7 @@ module.exports = {
       },
       {
         slug: 'word-cloud',
-        icon: 'word-cloud',
+        icon: 'wordcloud',
         title: {
           zh: '词云图',
           en: 'Word Cloud',
@@ -188,7 +188,7 @@ module.exports = {
       },
       {
         slug: 'tiny',
-        icon: 'other',
+        icon: 'tinyprogress',
         title: {
           zh: '迷你图',
           en: 'Tiny Charts',
@@ -204,7 +204,7 @@ module.exports = {
       },
       {
         slug: 'waterfall',
-        icon: 'column',
+        icon: 'waterfallchart',
         title: {
           zh: '瀑布图',
           en: 'Waterfall Charts',
@@ -236,7 +236,7 @@ module.exports = {
       },
       {
         slug: 'sunburst',
-        icon: 'other',
+        icon: 'sunburstchart',
         title: {
           zh: '旭日图',
           en: 'Sunburst',
